@@ -1,0 +1,63 @@
+div {
+  border: 1px solid;
+  display: block;
+}
+
+header {
+  font-family: Verdana; sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+nav span {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+a {
+  color: black;
+}
+
+p {
+  display: block;
+}
+
+.main {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  margin-right: 32px;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
